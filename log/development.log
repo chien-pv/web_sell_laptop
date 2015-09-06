@@ -1946,3 +1946,427 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:38 +0700
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:31:41 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 669ms (Views: 608.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/omniauth_callbacks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/omniauth_callbacks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-06 12:31:42 +0700
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-09-06 12:31:43 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-09-06 12:31:44 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook/callback?code=AQDI0y7yn5hNMv1kR8YkmFeWDMP5m9iZ06E9HT1SUDampNp6uTfUZZaOHWe86RQ7MXqV-kxIW7zBIPibs9L7wLZ8OipByAZQVqxztYlJ2hIutsvX4nAoiKmjf5yQxmHLh--JF8MicwqlfR5DN8Dan-6OlprNubD4HeQp15JOjOI1ITx3RCJ5JlYaXc_3ZaMct1nU-fCQ7sRgQh05Tr5zvmcysX8KgooWW3SScblrCfscbf2f_IbJuIvhnItF74OKEFUBI6cnH9hi155NVkvUdzbIFA25JF_ezVIPneccoQIYxq_saFyt1pj2LRHM6Ap2xzK-Klq65MLMdH83qBXaRyju&state=bda924aca371242492fe833ac2aed7697c0a7123ab614cf8" for 127.0.0.1 at 2015-09-06 12:31:45 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"code"=>"AQDI0y7yn5hNMv1kR8YkmFeWDMP5m9iZ06E9HT1SUDampNp6uTfUZZaOHWe86RQ7MXqV-kxIW7zBIPibs9L7wLZ8OipByAZQVqxztYlJ2hIutsvX4nAoiKmjf5yQxmHLh--JF8MicwqlfR5DN8Dan-6OlprNubD4HeQp15JOjOI1ITx3RCJ5JlYaXc_3ZaMct1nU-fCQ7sRgQh05Tr5zvmcysX8KgooWW3SScblrCfscbf2f_IbJuIvhnItF74OKEFUBI6cnH9hi155NVkvUdzbIFA25JF_ezVIPneccoQIYxq_saFyt1pj2LRHM6Ap2xzK-Klq65MLMdH83qBXaRyju", "state"=>"bda924aca371242492fe833ac2aed7697c0a7123ab614cf8", "provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQDI0y7yn5hNMv1kR8YkmFeWDMP5m9iZ06E9HT1SUDampNp6uTfUZZaOHWe86RQ7MXqV-kxIW7zBIPibs9L7wLZ8OipByAZQVqxztYlJ2hIutsvX4nAoiKmjf5yQxmHLh--JF8MicwqlfR5DN8Dan-6OlprNubD4HeQp15JOjOI1ITx3RCJ5JlYaXc_3ZaMct1nU-fCQ7sRgQh05Tr5zvmcysX8KgooWW3SScblrCfscbf2f_IbJuIvhnItF74OKEFUBI6cnH9hi155NVkvUdzbIFA25JF_ezVIPneccoQIYxq_saFyt1pj2LRHM6Ap2xzK-Klq65MLMdH83qBXaRyju", "state"=>"bda924aca371242492fe833ac2aed7697c0a7123ab614cf8"}
+  [1m[35mIdentity Load (0.4ms)[0m  SELECT  `identities`.* FROM `identities` WHERE `identities`.`provider` = 'facebook' AND `identities`.`uid` = '802619389855591' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mIdentity Exists (0.3ms)[0m  SELECT  1 AS one FROM `identities` WHERE (`identities`.`uid` = BINARY '802619389855591' AND `identities`.`id` != 1 AND `identities`.`provider` = 'facebook') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `identities` SET `accesstoken` = 'CAAUZBKJtX6m0BAOtL39CmQ6Qu2NeTnxINTTqE4v2pCxZAuK7N1w48rXiO6TNdmGZAB69yXXzfKvOTVf0aY2ttrDVV4MqyOBdZCWqN524mXXYKWoUQMvfLd2mw16nf158YwtvIuhvfmaGavNnZBtmeSgmRlDCWxQGzo8gePJWjwv9HL0xH0XRHQnkxtaZACsQ6nYWz8ClecEQZDZD', `updated_at` = '2015-09-06 05:31:47' WHERE `identities`.`id` = 1[0m
+  [1m[35m (88.0ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2015-09-06 05:19:38', `current_sign_in_at` = '2015-09-06 05:31:47', `sign_in_count` = 9, `updated_at` = '2015-09-06 05:31:47' WHERE `users`.`id` = 2
+  [1m[36m (37.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 188ms (ActiveRecord: 128.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:31:47 +0700
+Processing by WelcomeController#index as HTML
+  [1m[35mFormUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 155ms (Views: 151.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-09-06 12:31:49 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KL1RZQndHC2yrkCTKKt1HhkffNSz5DLQRfzC8e0ppGgTaD3uKZqJvcUF1ao5kidDvuNxox0yo5/Qi02IwvhYPA=="}
+  [1m[36mFormUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:31:49 +0700
+Processing by WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:31:49 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 141ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:31:50 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5TuE1vgHUQVkdfB+VCbWGgqXWbvJB6/3vqoOqGn/MlbUvZ0lw9GRiCcPqbro8XKeuYbkdTAGI957uGc5UOQD0g==", "user"=>{"email"=>"chien@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mFormUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'chien@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2015-09-06 05:19:44', `current_sign_in_at` = '2015-09-06 05:31:50', `sign_in_count` = 4, `updated_at` = '2015-09-06 05:31:50' WHERE `users`.`id` = 3
+  [1m[36m (75.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 204ms (ActiveRecord: 76.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:31:50 +0700
+Processing by WelcomeController#index as HTML
+  [1m[35mFormUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 145ms (Views: 143.2ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-09-06 12:31:52 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"p5OiI+rWpCFxwUKeJCz8Chin88Z+x+bHsgIV57sKMvEoec7Z7IfrF9ITuTNFw0uhvvujuPQrYBnhdnZ++jVRkQ=="}
+  [1m[36mFormUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:31:52 +0700
+Processing by WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:31:52 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 150ms (Views: 148.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2015-09-06 12:31:55 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"twitter"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+OAuth::Unauthorized (400 Bad Request):
+  vendor/bundle/ruby/2.2.0/gems/oauth-0.4.7/lib/oauth/consumer.rb:216:in `token_request'
+  vendor/bundle/ruby/2.2.0/gems/oauth-0.4.7/lib/oauth/consumer.rb:136:in `get_request_token'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-oauth-1.1.0/lib/omniauth/strategies/oauth.rb:28:in `request_phase'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-twitter-1.2.1/lib/omniauth/strategies/twitter.rb:61:in `request_phase'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:215:in `request_call'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:183:in `call!'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/ruby/2.2.0/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+  vendor/bundle/ruby/2.2.0/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/flash.rb:260:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activerecord-4.2.3/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activerecord-4.2.3/lib/active_record/migration.rb:377:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:84:in `run_callbacks'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/chienpv/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/chienpv/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/chienpv/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.1ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (37.3ms)
+
+
+Started GET "/users/auth/twitter" for 127.0.0.1 at 2015-09-06 12:31:56 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"twitter"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+OAuth::Unauthorized (400 Bad Request):
+  vendor/bundle/ruby/2.2.0/gems/oauth-0.4.7/lib/oauth/consumer.rb:216:in `token_request'
+  vendor/bundle/ruby/2.2.0/gems/oauth-0.4.7/lib/oauth/consumer.rb:136:in `get_request_token'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-oauth-1.1.0/lib/omniauth/strategies/oauth.rb:28:in `request_phase'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-twitter-1.2.1/lib/omniauth/strategies/twitter.rb:61:in `request_phase'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:215:in `request_call'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:183:in `call!'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:186:in `call!'
+  vendor/bundle/ruby/2.2.0/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:164:in `call'
+  vendor/bundle/ruby/2.2.0/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+  vendor/bundle/ruby/2.2.0/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/etag.rb:24:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/conditionalget.rb:25:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/flash.rb:260:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activerecord-4.2.3/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activerecord-4.2.3/lib/active_record/migration.rb:377:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:84:in `run_callbacks'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.3/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:116:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.3/lib/rails/application.rb:165:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /home/chienpv/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/chienpv/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/chienpv/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.0ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.4ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.7ms)
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2015-09-06 12:32:01 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"google_oauth2"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/google_oauth2" for 127.0.0.1 at 2015-09-06 12:32:02 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"google_oauth2"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-09-06 12:32:06 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-09-06 12:32:06 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"facebook"}
+  Rendered text template (0.1ms)
+Completed 404 Not Found in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook/callback?code=AQBhrkg7NggmP4dkl8v83RI_UQV1knknU7KBMMFTr_mBA0cyI5LMQlTCQ-rBV3eZ9wfEcsQ2dp4f-VD37HMIW3ieVe7O5QCIKt8yy7RE0rAjGbPHH-L3L0zDYLHRGvYOfnesiOrRPaaFgEjw3IK2twJbdeXY4xBpHD4wNbQG5nPQI3-GLtcYoCOnjWEUsXSpzW70B6KAnQu0EC-gkhPe4ppDLc-3L5DWJPboVlqesrBTY67KacKgav2UAmbIMKhbEIUYQ9UxkuOGDP1UEFgQAo0zk7_tnzqhFzHbcEDq2XX7a6CK467vWw_UlSgJTs_B9iJvQykqnLSQzSVxj-nCrkbp&state=a61f4f37fb29ee7acdaedcfd99ca98d4053ee5cccff6052c" for 127.0.0.1 at 2015-09-06 12:32:07 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"code"=>"AQBhrkg7NggmP4dkl8v83RI_UQV1knknU7KBMMFTr_mBA0cyI5LMQlTCQ-rBV3eZ9wfEcsQ2dp4f-VD37HMIW3ieVe7O5QCIKt8yy7RE0rAjGbPHH-L3L0zDYLHRGvYOfnesiOrRPaaFgEjw3IK2twJbdeXY4xBpHD4wNbQG5nPQI3-GLtcYoCOnjWEUsXSpzW70B6KAnQu0EC-gkhPe4ppDLc-3L5DWJPboVlqesrBTY67KacKgav2UAmbIMKhbEIUYQ9UxkuOGDP1UEFgQAo0zk7_tnzqhFzHbcEDq2XX7a6CK467vWw_UlSgJTs_B9iJvQykqnLSQzSVxj-nCrkbp", "state"=>"a61f4f37fb29ee7acdaedcfd99ca98d4053ee5cccff6052c", "provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQBhrkg7NggmP4dkl8v83RI_UQV1knknU7KBMMFTr_mBA0cyI5LMQlTCQ-rBV3eZ9wfEcsQ2dp4f-VD37HMIW3ieVe7O5QCIKt8yy7RE0rAjGbPHH-L3L0zDYLHRGvYOfnesiOrRPaaFgEjw3IK2twJbdeXY4xBpHD4wNbQG5nPQI3-GLtcYoCOnjWEUsXSpzW70B6KAnQu0EC-gkhPe4ppDLc-3L5DWJPboVlqesrBTY67KacKgav2UAmbIMKhbEIUYQ9UxkuOGDP1UEFgQAo0zk7_tnzqhFzHbcEDq2XX7a6CK467vWw_UlSgJTs_B9iJvQykqnLSQzSVxj-nCrkbp", "state"=>"a61f4f37fb29ee7acdaedcfd99ca98d4053ee5cccff6052c"}
+  [1m[35mIdentity Load (0.3ms)[0m  SELECT  `identities`.* FROM `identities` WHERE `identities`.`provider` = 'facebook' AND `identities`.`uid` = '802619389855591' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mIdentity Exists (0.3ms)[0m  SELECT  1 AS one FROM `identities` WHERE (`identities`.`uid` = BINARY '802619389855591' AND `identities`.`id` != 1 AND `identities`.`provider` = 'facebook') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `identities` SET `accesstoken` = 'CAAUZBKJtX6m0BAFKjyI6c2C59m6rdxH3ZCAtMfqupqZBWUQkJJknzcEsg2ydl6ijK7Q2USrC44NSrXqXCsPYnxxZBgetI5uYi5lCUlGtZBFPuZCVzvIWc3nZB2QXPtYluhBZA5c9eTefFQtD7CwfZCvMZBwn3ZBse20oTbhlWldqg3QdLh3pgbG3shGma5ZCd9ibRmvuWZAlfQhoZAWAZDZD', `updated_at` = '2015-09-06 05:32:09' WHERE `identities`.`id` = 1[0m
+  [1m[35m (44.9ms)[0m  COMMIT
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2015-09-06 05:31:47', `current_sign_in_at` = '2015-09-06 05:32:09', `sign_in_count` = 10, `updated_at` = '2015-09-06 05:32:09' WHERE `users`.`id` = 2
+  [1m[36m (27.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 85ms (ActiveRecord: 73.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:32:09 +0700
+Processing by WelcomeController#index as HTML
+  [1m[35mFormUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 156ms (Views: 153.3ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-09-06 12:32:13 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nEMljFm7G9ePCGoc4fWkrwZWfD6cuOSaQGCLR2JLEMaR2tgGMshJTsBW0KnzU1ebm1g7fcXhcpqNm9qp0e4b1w=="}
+  [1m[36mFormUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:32:13 +0700
+Processing by WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:32:13 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 141ms (Views: 139.4ms | ActiveRecord: 0.0ms)
