@@ -1453,3 +1453,496 @@ Processing by Devise::SessionsController#new as HTML
   Rendered devise/shared/_links.html.erb (1.2ms)
   Rendered devise/sessions/new.html.erb within layouts/application (5.5ms)
 Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:18:32 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 330ms (Views: 280.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/omniauth_callbacks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/omniauth_callbacks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-06 12:18:33 +0700
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:18:35 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TjciIGB2hUXe9aQK7luaIoKoTeHfSrvRvaTovKkZZw20NJ7FNnXYpjz60xz/gvYwbJReTlzHZdwdVzhyOnkLoA==", "user"=>{"email"=>"chien@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mFormUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'chien@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `users` SET `current_sign_in_at` = '2015-09-06 05:18:35', `sign_in_count` = 2, `updated_at` = '2015-09-06 05:18:35' WHERE `users`.`id` = 3
+  [1m[36m (33.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 207ms (ActiveRecord: 34.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:18:36 +0700
+Processing by WelcomeController#index as HTML
+  [1m[35mFormUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-09-06 12:18:37 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Y4QDbaMixZNmSjIVib8v/pxpAVRBpuXI1qsUMdkTSjYx2XvrI3hqrBM0G+E/ypKqALE1UaJt2oYUMo2NfXTOCQ=="}
+  [1m[36mFormUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:18:37 +0700
+Processing by WelcomeController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:18:37 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 82ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-09-06 12:18:39 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-09-06 12:18:40 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"facebook"}
+  Rendered text template (0.6ms)
+Completed 404 Not Found in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook/callback?code=AQDBY7qq8zEVq9bF4_SJhYsVPlp9pDc2zfauoxlaQDV0LN8f8-U9I7-yGQk2mWRXdCzt6on8Ag5haQGegPNXYaRpcgazBUum4vugnvu9Y_fj2mvmihGELQNKFpe68h9C5_ON8iolhvC6uQhCicjDxPmoYX4ONX_wHdSPhD2tvgZk8ULhn_Dt92DhMrp6EgJ4u30Di8NalAr1S_xmAEmmT2oaLu90-WEZyGrBglCrd4E3jKuZj3rY53O1ACOf5EyuNtaMfd_mRtKpBSxx0t5i2YT1lrUkDfRTO4UfsTWLmH4H8EhJbkfebVXlKzvrXSXaxZ3OvLI_xDLWcfqLZF6UhWax&state=efc761c15268c192b3f8be29017f147c8ea6696cdaf149ff" for 127.0.0.1 at 2015-09-06 12:18:40 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"code"=>"AQDBY7qq8zEVq9bF4_SJhYsVPlp9pDc2zfauoxlaQDV0LN8f8-U9I7-yGQk2mWRXdCzt6on8Ag5haQGegPNXYaRpcgazBUum4vugnvu9Y_fj2mvmihGELQNKFpe68h9C5_ON8iolhvC6uQhCicjDxPmoYX4ONX_wHdSPhD2tvgZk8ULhn_Dt92DhMrp6EgJ4u30Di8NalAr1S_xmAEmmT2oaLu90-WEZyGrBglCrd4E3jKuZj3rY53O1ACOf5EyuNtaMfd_mRtKpBSxx0t5i2YT1lrUkDfRTO4UfsTWLmH4H8EhJbkfebVXlKzvrXSXaxZ3OvLI_xDLWcfqLZF6UhWax", "state"=>"efc761c15268c192b3f8be29017f147c8ea6696cdaf149ff", "provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQDBY7qq8zEVq9bF4_SJhYsVPlp9pDc2zfauoxlaQDV0LN8f8-U9I7-yGQk2mWRXdCzt6on8Ag5haQGegPNXYaRpcgazBUum4vugnvu9Y_fj2mvmihGELQNKFpe68h9C5_ON8iolhvC6uQhCicjDxPmoYX4ONX_wHdSPhD2tvgZk8ULhn_Dt92DhMrp6EgJ4u30Di8NalAr1S_xmAEmmT2oaLu90-WEZyGrBglCrd4E3jKuZj3rY53O1ACOf5EyuNtaMfd_mRtKpBSxx0t5i2YT1lrUkDfRTO4UfsTWLmH4H8EhJbkfebVXlKzvrXSXaxZ3OvLI_xDLWcfqLZF6UhWax", "state"=>"efc761c15268c192b3f8be29017f147c8ea6696cdaf149ff"}
+  [1m[35mIdentity Load (0.3ms)[0m  SELECT  `identities`.* FROM `identities` WHERE `identities`.`provider` = 'facebook' AND `identities`.`uid` = '802619389855591' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mIdentity Exists (0.4ms)[0m  SELECT  1 AS one FROM `identities` WHERE (`identities`.`uid` = BINARY '802619389855591' AND `identities`.`id` != 1 AND `identities`.`provider` = 'facebook') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `identities` SET `accesstoken` = 'CAAUZBKJtX6m0BAMw7ilXBmzauoKZAO3cOYWVDMBtGAOOttqt8SpcUR5AOlJsurctE4xxHsaU04rk5rW4YqLlYr9bT4Rj5lykGVBsCLpx6RAI7Kc6CIKQZB1t1OvIWXKWliqMWDgLEylMHVn6R5dMxL5ycaLwD9mKsueI5aIu9sG772aKPCooOugR60SwldHZAWQox8cKIAZDZD', `updated_at` = '2015-09-06 05:18:42' WHERE `identities`.`id` = 1[0m
+  [1m[35m (60.9ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2015-09-06 05:05:15', `current_sign_in_at` = '2015-09-06 05:18:42', `sign_in_count` = 7, `updated_at` = '2015-09-06 05:18:42' WHERE `users`.`id` = 2
+  [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 181ms (ActiveRecord: 104.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:18:42 +0700
+Processing by WelcomeController#index as HTML
+  [1m[35mFormUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 74.4ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-09-06 12:18:45 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8z8f60RNg2Dj3me1Llbi6e/XX4CMmm+bxE/9LFEPjW7qKvtCUT9ZhWDgW+F8b81ag8dLXoNIm2YQmy/3N5d13g=="}
+  [1m[36mFormUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:18:45 +0700
+Processing by WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:18:45 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/omniauth_callbacks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/omniauth_callbacks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-09-06 12:19:34 +0700
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-09-06 12:19:35 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2015-09-06 12:19:36 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/auth/facebook/callback?code=AQDVSxzRsczIuyPsiyf8FlhluQIn7L25D6ZBxsF1Zdqhbpo_ndhHF7x8W4ivfCdN2MdAqCukzqPdbWQltaOWp4Tnrh_-6aiM4VNgytiriSsaca_XLcbxbeJ4bPNxgfivO4Qtc_Eu9OPvWZRBt_MNqbaeV5TFDN5T5jvgJUZOyfSmITl5W5aJ0EN3WZsLaBwzHSW_9RlaVxAZgKgk3vLitCMUGt_vU0VLqU759mB7ncBMMqlVuhg3qYzr3D32shGM9mgzjgCRjey1BmeflAYV2_rjeuSUSmyWByz0MawTGqeGN4SR7rczr9WXhMXyNIT82CkXKZZTAmKfZGqY7gtbfASx&state=6723f7bd502c58366fe239932bb327044fbd6517567bf752" for 127.0.0.1 at 2015-09-06 12:19:36 +0700
+Processing by OmniauthCallbacksController#setup as HTML
+  Parameters: {"code"=>"AQDVSxzRsczIuyPsiyf8FlhluQIn7L25D6ZBxsF1Zdqhbpo_ndhHF7x8W4ivfCdN2MdAqCukzqPdbWQltaOWp4Tnrh_-6aiM4VNgytiriSsaca_XLcbxbeJ4bPNxgfivO4Qtc_Eu9OPvWZRBt_MNqbaeV5TFDN5T5jvgJUZOyfSmITl5W5aJ0EN3WZsLaBwzHSW_9RlaVxAZgKgk3vLitCMUGt_vU0VLqU759mB7ncBMMqlVuhg3qYzr3D32shGM9mgzjgCRjey1BmeflAYV2_rjeuSUSmyWByz0MawTGqeGN4SR7rczr9WXhMXyNIT82CkXKZZTAmKfZGqY7gtbfASx", "state"=>"6723f7bd502c58366fe239932bb327044fbd6517567bf752", "provider"=>"facebook"}
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQDVSxzRsczIuyPsiyf8FlhluQIn7L25D6ZBxsF1Zdqhbpo_ndhHF7x8W4ivfCdN2MdAqCukzqPdbWQltaOWp4Tnrh_-6aiM4VNgytiriSsaca_XLcbxbeJ4bPNxgfivO4Qtc_Eu9OPvWZRBt_MNqbaeV5TFDN5T5jvgJUZOyfSmITl5W5aJ0EN3WZsLaBwzHSW_9RlaVxAZgKgk3vLitCMUGt_vU0VLqU759mB7ncBMMqlVuhg3qYzr3D32shGM9mgzjgCRjey1BmeflAYV2_rjeuSUSmyWByz0MawTGqeGN4SR7rczr9WXhMXyNIT82CkXKZZTAmKfZGqY7gtbfASx", "state"=>"6723f7bd502c58366fe239932bb327044fbd6517567bf752"}
+  [1m[35mIdentity Load (0.4ms)[0m  SELECT  `identities`.* FROM `identities` WHERE `identities`.`provider` = 'facebook' AND `identities`.`uid` = '802619389855591' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mIdentity Exists (0.4ms)[0m  SELECT  1 AS one FROM `identities` WHERE (`identities`.`uid` = BINARY '802619389855591' AND `identities`.`id` != 1 AND `identities`.`provider` = 'facebook') LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE `identities` SET `accesstoken` = 'CAAUZBKJtX6m0BANJjK7qTeV3hEaBVc22p0mQnKGexD4wQBRdL0YnJgvdg6JUXNo1fxNAiZA7B2iPjzYIu4MQ474FZAzLBf3szkLiQamRvsW2XloAWd56ghFroXabZBhbdI0ZCuwOsToND7VhIU0f3BNyslUHTw1uBnfz6BIM7k9CdlTD2SWIJxgben6OwFN3r1T0zCLkZBSQZDZD', `updated_at` = '2015-09-06 05:19:38' WHERE `identities`.`id` = 1[0m
+  [1m[35m (74.7ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2015-09-06 05:18:42', `current_sign_in_at` = '2015-09-06 05:19:38', `sign_in_count` = 8, `updated_at` = '2015-09-06 05:19:38' WHERE `users`.`id` = 2
+  [1m[36m (38.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 126ms (ActiveRecord: 114.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:19:38 +0700
+Processing by WelcomeController#index as HTML
+  [1m[35mFormUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 65.8ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-09-06 12:19:40 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9P+kOsNxNShjYNQgd7ih107VobjrgKM5ELRjttGNxq8akWZXtk3yHCxsU+nmXPdQFLNIIxl3KKHcwp1EyypVmQ=="}
+  [1m[36mFormUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:19:40 +0700
+Processing by WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:19:40 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 59ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:19:44 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lUerV/U3CUCW15utmQQya4OrhZjpSHYfyzm6vevRCYDDWvykjWf4U/91eme60UQjszIdz47clEiJHYRH8V/Iug==", "user"=>{"email"=>"chien@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mFormUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'chien@gmail.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2015-09-06 05:18:35', `current_sign_in_at` = '2015-09-06 05:19:44', `sign_in_count` = 3, `updated_at` = '2015-09-06 05:19:44' WHERE `users`.`id` = 3
+  [1m[36m (42.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 170ms (ActiveRecord: 44.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:19:44 +0700
+Processing by WelcomeController#index as HTML
+  [1m[35mFormUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 52ms (Views: 49.7ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-09-06 12:19:45 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VSSVG3rHMUIwWiKjDWeQ7oFpYTQRYd8bXg1PTT7an/Gwfky1/U6Klc/nvVkHlRCv54N6nee2/TBLQ7MeworxGQ=="}
+  [1m[36mFormUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-06 12:19:45 +0700
+Processing by WelcomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:19:45 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:25:51 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/chienpv/Bai_test/web_sell_lap/app/assets/images
+  /home/chienpv/Bai_test/web_sell_lap/app/assets/javascripts
+  /home/chienpv/Bai_test/web_sell_lap/app/assets/stylesheets
+  /home/chienpv/Bai_test/web_sell_lap/vendor/assets/javascripts
+  /home/chienpv/Bai_test/web_sell_lap/vendor/assets/stylesheets
+  /home/chienpv/Bai_test/web_sell_lap/vendor/bundle/ruby/2.2.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /home/chienpv/Bai_test/web_sell_lap/vendor/bundle/ruby/2.2.0/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /home/chienpv/Bai_test/web_sell_lap/vendor/bundle/ruby/2.2.0/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>WebSellLaptop</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.sass:17
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3672469318600856365_70020015000120'
+
+
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.9ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.5ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.3ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered vendor/bundle/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (40.6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:26:41 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 8079ms (Views: 8020.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/omniauth_callbacks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/omniauth_callbacks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-06 12:26:50 +0700
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 265ms (Views: 262.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/omniauth_callbacks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/registrations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:37 +0700
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:38 +0700
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:38 +0700
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:38 +0700
+
+
+Started GET "/assets/omniauth_callbacks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:38 +0700
+
+
+Started GET "/assets/registrations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:38 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:38 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-09-06 12:27:38 +0700
